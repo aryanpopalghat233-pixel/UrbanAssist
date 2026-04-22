@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Helvetica Neue", Arial, system-ui, sans-serif;
+  --color-brand: #0EA5E9;
+  --color-slate-background: #F8FAFC;
+  --color-slate-ink: #1E293B;
+  --color-slate-border: #E2E8F0;
+  --color-slate-secondary: #F1F5F9;
+}
+
+@layer base {
+  body {
+    @apply bg-slate-background text-slate-ink antialiased;
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

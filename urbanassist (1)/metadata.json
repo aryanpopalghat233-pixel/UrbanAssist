@@ -1,0 +1,6 @@
+{
+  "name": "UrbanAssist",
+  "description": "A premium on-demand service platform with real-time worker tracking, professional service bookings, and a career portal.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": []
+}
